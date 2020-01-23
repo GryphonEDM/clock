@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+    <div id="clockbody">
+      <div id="clockscreen">
+        <div id="time"></div>
+        <div id="weekday"></div>
+        <div id="month"></div>
+        <div id="day"></div>
+        <div id="year"></div>
+        <div id="zone"></div>
+      </div>
+      <div id="setalarm">Set Alarm</div>
+      <div id="clearalarm">Clear Alarm</div>
+      <div id="snooze">Snooze</div>
+      <div id="changezone">Change Zone</div>
+    </div>
+  <script src="index.js" type="text/javascript">
+   function autorun()
+   {
+    
+   }
+   if (window.addEventListener) window.addEventListener("load", autorun, false);
+   else if (window.attachEvent) window.attachEvent("onload", autorun);
+   else window.onload = autorun;
+  </script>
+  </body>
+</html>
